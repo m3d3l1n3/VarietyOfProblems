@@ -1,0 +1,10 @@
+D:\probleme.info\OlimpiadaInfo\DrawingBits\DrawingBits\bin\Debug\DrawingBits.exe.config
+D:\probleme.info\OlimpiadaInfo\DrawingBits\DrawingBits\bin\Debug\DrawingBits.exe
+D:\probleme.info\OlimpiadaInfo\DrawingBits\DrawingBits\bin\Debug\DrawingBits.pdb
+D:\probleme.info\OlimpiadaInfo\DrawingBits\DrawingBits\obj\Debug\DrawingBits.csprojAssemblyReference.cache
+D:\probleme.info\OlimpiadaInfo\DrawingBits\DrawingBits\obj\Debug\DrawingBits.Form1.resources
+D:\probleme.info\OlimpiadaInfo\DrawingBits\DrawingBits\obj\Debug\DrawingBits.Properties.Resources.resources
+D:\probleme.info\OlimpiadaInfo\DrawingBits\DrawingBits\obj\Debug\DrawingBits.csproj.GenerateResource.cache
+D:\probleme.info\OlimpiadaInfo\DrawingBits\DrawingBits\obj\Debug\DrawingBits.csproj.CoreCompileInputs.cache
+D:\probleme.info\OlimpiadaInfo\DrawingBits\DrawingBits\obj\Debug\DrawingBits.exe
+D:\probleme.info\OlimpiadaInfo\DrawingBits\DrawingBits\obj\Debug\DrawingBits.pdb
