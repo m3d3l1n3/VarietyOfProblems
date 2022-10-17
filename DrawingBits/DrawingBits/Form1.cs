@@ -38,7 +38,6 @@ namespace DrawingBits
                     {
                         graphics.DrawString(firstText, arialFont, Brushes.DeepPink, firstLocation);
                     }
-
                 }
 
                 System.Drawing.Rectangle rect = new System.Drawing.Rectangle();
@@ -54,25 +53,23 @@ namespace DrawingBits
             }
         }
 
+        static PointF startPoint;
+        
+        private void pbPicture_Click(object sender, EventArgs e)
+        {
+             if(startPoint.IsEmpty)
+                startPoint = new PointF(((MouseEventArgs)e).X, ((MouseEventArgs)e).Y);
+            else
+            {
+                var finishPoint = new PointF(((MouseEventArgs)e).X, ((MouseEventArgs)e).Y);
+                var bmp = (Bitmap)pbPicture.Image?.Clone() ?? new Bitmap(pbPicture.Width, pbPicture.Height);
+                var gfx = Graphics.FromImage(bmp);
+                var pen = new Pen(Color.DeepPink, 2);
+                gfx.DrawLine(pen, startPoint, finishPoint);
+                pbPicture.Image = (Bitmap)bmp.Clone();
+            }
+            
+
+        }
     }
 }
-
-//string firstText = "Hello";
-//string secondText = "World";
-
-//PointF firstLocation = new PointF(10f, 10f);
-//PointF secondLocation = new PointF(10f, 50f);
-
-//string imageFilePath = @"path\picture.bmp"
-//Bitmap bitmap = (Bitmap)Image.FromFile(imageFilePath);//load the image file
-
-//using (Graphics graphics = Graphics.FromImage(bitmap))
-//{
-//    using (Font arialFont = new Font("Arial", 10))
-//    {
-//        graphics.DrawString(firstText, arialFont, Brushes.Blue, firstLocation);
-//        graphics.DrawString(secondText, arialFont, Brushes.Red, secondLocation);
-//    }
-//}
-
-//bitmap.Save(imageFilePath);//save the image file

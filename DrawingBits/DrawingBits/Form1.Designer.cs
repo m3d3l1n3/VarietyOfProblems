@@ -45,12 +45,13 @@ namespace DrawingBits
             this.pbPicture.BackgroundImage = global::DrawingBits.Properties.Resources.WhatsApp_Image_2022_02_16_at_15_03_30;
             this.pbPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbPicture.InitialImage = null;
-            this.pbPicture.Location = new System.Drawing.Point(394, 44);
+            this.pbPicture.Location = new System.Drawing.Point(390, 24);
             this.pbPicture.Name = "pbPicture";
             this.pbPicture.Size = new System.Drawing.Size(372, 432);
             this.pbPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbPicture.TabIndex = 0;
             this.pbPicture.TabStop = false;
+            this.pbPicture.Click += new System.EventHandler(this.pbPicture_Click);
             // 
             // tbX
             // 
@@ -86,7 +87,7 @@ namespace DrawingBits
             // 
             // btnDraw
             // 
-            this.btnDraw.Location = new System.Drawing.Point(210, 252);
+            this.btnDraw.Location = new System.Drawing.Point(202, 223);
             this.btnDraw.Name = "btnDraw";
             this.btnDraw.Size = new System.Drawing.Size(75, 23);
             this.btnDraw.TabIndex = 5;
